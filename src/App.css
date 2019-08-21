@@ -33,12 +33,12 @@ p {
     font-size: calc(10px + 2vmin);
     color: white;
   }
-  .Header-animation-enter, .Header-animation-appear {
+  .Header-content-enter, .Header-content-appear {
     opacity: 0;
     width: 0;
     border: 2px solid green;
   }
-  .Header-animation-enter-active, .Header-animation-appear-active {
+  .Header-content-enter-active, .Header-content-appear-active {
     opacity: 1;
     width: 75vw;
     transition: opacity 300ms, width 300ms;
